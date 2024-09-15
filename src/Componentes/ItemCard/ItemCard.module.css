@@ -1,0 +1,36 @@
+.divItens {
+    width: 180px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    text-align: center; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    background-color:#c5b2b2; 
+    transition: transform 0.2s; 
+    margin: 8px; 
+    height: 270px;
+   
+
+    
+  }
+  
+  .divItens:hover {
+    transform: translateY(-5px); 
+  }
+  
+  .imagens {
+    width: 140px; 
+    height: 140px; 
+   /* border-bottom: 1px solid #000000; /* Linha divisória entre a imagem e o texto */
+    margin-top: 18px;
+    margin-left: 16px ;
+  }
+  
+  .divItens p {
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #333; 
+    margin: 0; 
+    padding: 23px;
+    margin-top: -28px;
+  }

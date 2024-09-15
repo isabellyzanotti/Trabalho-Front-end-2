@@ -1,0 +1,12 @@
+.naoEncontrada{
+    display: flex;
+    gap: 50px;
+}
+
+.naoEncontrada p {
+    margin-top: 25px;
+}
+
+.naoEncontrada h1 {
+    font-size: 52px;
+}

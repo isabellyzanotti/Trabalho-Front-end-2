@@ -1,0 +1,30 @@
+nav ul {
+    background-color: #000000 ;
+    border-bottom: 1px solid #3d3535d3;
+    list-style: none;    
+    display: flex;
+    justify-content: end;
+    
+}
+
+.link {
+    font-size: 18px;
+    color:#c5b2b2;
+}
+
+.linkAtivo {
+    font-weight: 600;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.navegacao {
+   margin-top: -16px;
+  
+}

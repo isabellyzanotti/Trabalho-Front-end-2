@@ -1,0 +1,44 @@
+/*.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid #000000;
+    background-color: #c5b7b72d;
+    color: #000000;
+    border-radius: 8px;
+    padding: 20px;
+    width: 290px;
+
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}*/
+
+
+
+.details {
+    color: #000000;
+    font-family: 'Helvetica, sans-serif';
+    font-size: 20px;
+ text-align: justify;
+    
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.date_local {
+    font-size: 20px;
+    font-style: oblique;
+
+}
+.imagens{
+    width: 200px;
+    height: 200px;
+}

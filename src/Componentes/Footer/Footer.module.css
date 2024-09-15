@@ -1,0 +1,31 @@
+.footer {
+    height: 75px;
+    background-color: #000000 ;
+
+    border-top: 1px solid #5e5e5e;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.footer span {
+    color:#c5b2b2;
+    font-size: 16px;
+}
+
+.icones {
+    color:#c5b2b2;
+
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
