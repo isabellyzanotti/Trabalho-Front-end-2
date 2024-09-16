@@ -1,13 +1,9 @@
 import estilos from './inicio.module.css';
 
-
 function Inicio() {
 
     return (
         <body>
-
-
-
             <div className={estilos.inicio}>
                 <img src='../images/spacex-inicio.jpg' alt='logoSpace' className={estilos.logo} />
                 <h1>Bem-vindo à SpaceX</h1>

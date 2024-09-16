@@ -2,8 +2,6 @@ header {
     height: 60px;
     width: 94, 2%;
     background-color: #000000;
-    /*border: 1px solid #5e5e5e;*/
-
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
@@ -19,7 +17,6 @@ header {
     height: 60px;
     border-radius: 10px;
     margin-top: 80px;
-
 }
 
 .header-titulo {
@@ -41,7 +38,7 @@ a {
 
 
 
-/* Para telas menores, ajuste o padding */
+/* Responsividade */
 @media screen and (max-width: 768px) {
     .header-logo {
         /*background-color: #699BF7;*/
