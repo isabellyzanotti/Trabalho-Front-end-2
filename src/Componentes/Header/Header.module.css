@@ -1,7 +1,7 @@
 header {
     height: 60px;
     width: 94, 2%;
-    background-color: #000000 ;
+    background-color: #000000;
     /*border: 1px solid #5e5e5e;*/
 
     display: flex;
@@ -18,7 +18,7 @@ header {
     width: 280px;
     height: 60px;
     border-radius: 10px;
-margin-top: 80px;
+    margin-top: 80px;
 
 }
 
@@ -26,8 +26,8 @@ margin-top: 80px;
     display: flex;
     flex-direction: row;
     margin-left: 20px;
-    
- 
+
+
 }
 
 .header-titulo h1,
@@ -41,23 +41,18 @@ a {
 
 
 
-/* Estilos para telas muito pequenas (celulares menores) */
-@media (max-width: 480px) {
-   
-    .header {
-        flex-direction: column; /* Muda a direção de uma barra de navegação horizontal para vertical */
+/* Para telas menores, ajuste o padding */
+@media screen and (max-width: 768px) {
+    .header-logo {
+        /*background-color: #699BF7;*/
+        display: flex;
+        gap: 20px;
+        width: 280px;
+        height: 60px;
+        border-radius: 10px;
+        margin-top: 80px;
+
     }
+
 }
-/*
-.button {
-  padding: 0.6rem 0.8rem;
-  color: #ffffff;
-  background-color: black;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.button:hover {
-  scale: 1.1;
-}*/
+

@@ -28,3 +28,34 @@ nav a {
    margin-top: -16px;
   
 }
+@media screen and (max-width:480px) {
+    .link {
+        font-size: 18px;
+        color:#c5b2b2;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    nav ul li {
+        padding: 2px;
+        flex-wrap: wrap;
+    
+    }
+    
+}
+@media screen and (max-width:780px) {
+    .link {
+        font-size: 18px;
+        color:#c5b2b2;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    nav ul li {
+        padding: 2px;
+        flex-wrap: wrap;
+        margin-left: 34px;
+
+    }
+    
+}

@@ -30,3 +30,23 @@ li {
 body{
     background-color: #000000 ;   
 }
+
+
+@media screen and (max-width:480px) {
+    .inicio {
+        text-align: center;
+        background-color: #000000 ;
+        color: #333;
+    }
+    
+    
+}
+@media screen and (max-width:780px) {
+    .inicio {
+        text-align: center;
+        background-color: #000000 ;
+        color: #333;
+    }
+    
+    
+}

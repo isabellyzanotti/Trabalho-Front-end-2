@@ -34,3 +34,39 @@
     padding: 23px;
     margin-top: -28px;
   }
+  @media screen and (max-width:480px) {
+    .divItens {
+      width: 180px; 
+      border: 1px solid #ddd; 
+      border-radius: 8px; 
+      overflow: hidden; 
+      text-align: center; 
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+      background-color:#c5b2b2; 
+      transition: transform 0.2s; 
+      margin: 8px; 
+      height: 270px;
+     
+  
+      
+    }
+    
+}
+@media screen and (max-width:780px) {
+  .divItens {
+    width: 180px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    text-align: center; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    background-color:#c5b2b2; 
+    transition: transform 0.2s; 
+    margin: 8px; 
+    height: 270px;
+   
+
+    
+  }
+    
+}

@@ -6,3 +6,28 @@ p{
     text-align: justify;
     padding: 20px;
 }
+
+@media screen and (max-width:480px) {
+    h1{
+        padding: 30px;
+        
+    }
+    p{
+        text-align: justify;
+        padding: 20px;
+    }
+    
+    
+}
+@media screen and (max-width:780px) {
+    h1{
+        padding: 30px;
+        
+    }
+    p{
+        text-align: justify;
+        padding: 20px;
+    }
+    
+    
+}
