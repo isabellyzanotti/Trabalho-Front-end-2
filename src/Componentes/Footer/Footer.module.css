@@ -29,3 +29,47 @@
 
 
 }
+@media screen and (max-width:480px) {
+    .footer {
+        height: 75px;
+        background-color: #000000 ;
+    
+        border-top: 1px solid #5e5e5e;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 50px;
+    }
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    
+}
+@media screen and (max-width:780px) {
+    .footer {
+        height: 75px;
+        background-color: #000000 ;
+    
+        border-top: 1px solid #5e5e5e;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 50px;
+    }
+ 
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+
+
+}
