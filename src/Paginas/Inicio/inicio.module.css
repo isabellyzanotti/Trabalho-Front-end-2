@@ -1,7 +1,7 @@
 .inicio {
     text-align: center;
     background-color: #000000 ;
-    color:#c5b2b2ce;
+   
 }
 
 .logo {
@@ -10,19 +10,38 @@
     margin-top: -16px;
 }
 
+
+h3{
+    color:#c5b2b2;
+
+
+}
+h1{
+    color:#c5b2b2;
+
+}
+
 strong{
     color:#e0d2d2ce;
 
 }
 
+h2{
+    color:#c5b2b2;
+
+}
 ul {
     list-style-type: disc;
     padding-left: 20px;
+    color:#c5b2b2;
+
 
 }
 
 li {
     list-style: none;
+    color:#c5b2b2;
+
 }
 body{
     background-color: #000000 ;   
@@ -33,16 +52,15 @@ body{
     .inicio {
         text-align: center;
         background-color: #000000 ;
-        color:#c5b2b2;
+        
     }
-    
-    
+
 }
 @media screen and (max-width:780px) {
     .inicio {
         text-align: center;
         background-color: #000000 ;
-        color:#c5b2b2;
+        
     }
     
     
