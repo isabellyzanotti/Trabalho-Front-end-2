@@ -12,7 +12,6 @@ import Zap from "./Paginas/Zap";
 
 
 
-
 function App() {
   const [dados, setDados] = useState([]);
 

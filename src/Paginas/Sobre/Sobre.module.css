@@ -1,5 +1,8 @@
+.sobre{
+    color:#c5b2b2ce;
 
-h1{
+}
+.sobre h1{
     padding: 30px;
     color:#c5b2b2ce;
     
@@ -7,7 +10,7 @@ h1{
 p{
     text-align: justify;
     padding: 20px;
-    color:#c5b2b2ce;
+   
 }
 
 @media screen and (max-width:480px) {
