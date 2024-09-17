@@ -1,12 +1,10 @@
 header {
     height: 60px;
-    width: 94, 2%;
-    background-color: #000000;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 40px;
+    padding: 10px 20px; 
+    display: flex; 
     align-items: center;
-    font-family: 'Verdana, sans-serif';
+    justify-content: center; 
+    box-sizing: border-box; 
 }
 
 .header-logo {

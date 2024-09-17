@@ -1,23 +1,22 @@
 nav ul {
-    background-color: #000000 ;
-    border-bottom: 1px solid #3d3535d3;
-    list-style: none;    
+    list-style: none; 
     display: flex;
-    justify-content: end;
+    margin-top: 24px;
     
 }
 
 .link {
     font-size: 18px;
     color:#c5b2b2;
+   
 }
 
 .linkAtivo {
-    font-weight: 600;
+    font-weight: bold; 
 }
 
 nav ul li {
-    padding: 20px;
+    margin: 21px 20px 23px ;
 }
 
 nav a {
@@ -25,37 +24,35 @@ nav a {
 }
 
 .navegacao {
-   margin-top: -16px;
+    display: flex;
+    align-items: center;
   
 }
-@media screen and (max-width:480px) {
-    .link {
-        font-size: 18px;
-        color:#c5b2b2;
-        display: flex;
-        flex-wrap: wrap;
-
-    }
-    nav ul li {
-        padding: 2px;
-        flex-wrap: wrap;
-    
-    }
+@media screen and (max-width:300px) {
+    .navegacao .link {
+        font-size: 0.9rem; 
+        
+       
+      }
     
 }
 @media screen and (max-width:780px) {
-    .link {
-        font-size: 18px;
-        color:#c5b2b2;
-        display: flex;
-        flex-wrap: wrap;
-
-    }
-    nav ul li {
-        padding: 2px;
-        flex-wrap: wrap;
-        margin-left: 34px;
-
+    header {
+        padding: 10px 15px; 
+      }
+    
+      .navegacao {
+        flex-direction: column; 
+        align-items: flex-start; 
+        width: 100%; 
+      }
+    
+      .navegacao ul {
+        width: 100%; 
+      }
+    
+      .navegacao li {
+        margin: 5px 0; 
+      }
     }
     
-}

@@ -4,20 +4,19 @@
     padding: 20px;
     border-radius: 8px;
     background-color: #000000;
+ 
+   
+
 }
 
 .divInfo {
     position: relative;
-    width: 1100px;
-    height: 600px;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    background-color: #c5b2b2;
-    margin: 8px;
-    margin-left: 65px;
     padding: 20px;
+    overflow: auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: #c5b2b2;
+    border-radius: 12px;
 }
 
 .divImg {
@@ -47,7 +46,8 @@ h1 {
 }
 
 .date_local {
-    margin-left: 60px;
+    margin: 10px 0;
+    
 }
 
 button {
@@ -59,11 +59,16 @@ button {
     color: #c5b2b2;
     bottom: 20px;
     right: 20px;
+    z-index: 10;   
+    font-size: 0.9rem;
+    overflow: hidden;
+ 
 }
 
 .youtube {
+    display: block; 
     color: #333;
-    margin: 0 0 10px 0;
+    margin: 10px 0;
     text-decoration: none;
 }
 
@@ -81,69 +86,40 @@ body {
 }
 
 
-@media screen and (max-width:480px) {
-    .box {
-        display: flex;
-        align-items: column;
-        padding: 20px;
-        border-radius: 8px;
-        background-color: #000000;
-
-    }
-
-    body {
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
-    }
+@media screen and (max-width: 300px) {
 
     .divInfo {
-        width: 1100px;
-        height: 600px;
-        border: 2px solid #ddd;
-        border-radius: 8px;
-        text-align: center;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        background-color: #c5b2b2;
-        margin: 8px;
-        margin-left: 25px;
-        padding: 20px;
-
+        padding: 5px; 
+      }
+    
+      .youtube, .date_local {
+        font-size: 0.8rem; 
+        margin: 5px 0;
+      }
+    
+      button {
+        width: 70px; 
+        height: 25px; 
+        font-size: 0.7rem; 
+        bottom: 10px;
+        right: 10px; 
+      }
     }
-
-}
 
 @media screen and (max-width:780px) {
-    .box {
-        display: flex;
-        align-items: column;
-        padding: 20px;
-        border-radius: 8px;
-        background-color: #000000;
-
-    }
-
-    body {
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
-    }
-
     .divInfo {
-        width: 1100px;
-        height: 600px;
-        border: 2px solid #ddd;
-        border-radius: 8px;
-        text-align: center;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        background-color: #c5b2b2;
-        margin: 8px;
-        margin-left: 2px;
-        padding: 20px;
-
+        padding: 10px; 
+        
+      }
+    
+      .youtube, .date_local {
+        font-size: 0.9rem; 
+        margin: 5px 0; 
+      }
+    
+      button {
+        width: 80px; 
+        height: 30px; 
+        font-size: 0.8rem;
+      }
     }
-
-
-}
